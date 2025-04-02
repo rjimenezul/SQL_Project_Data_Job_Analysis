@@ -234,3 +234,8 @@ Based purely on yearly salary, the following skills where obtained, potentially 
 Finally, joining the top demand and highest paying skills, the following was obtained, prioritized on skill demand and then paying. The following table shows the top 10 skills based on those criteria:
 
 ![alt text](image-4.png)
+
+
+# - Final Conclusion
+
+Working through this project helped me put in practice a lot of the SQL coding I´ve learned. The results show that SQL is a really powerful tool that is both in high demand as well as having a huge capacity to open really good oportunities for data analysts. 
