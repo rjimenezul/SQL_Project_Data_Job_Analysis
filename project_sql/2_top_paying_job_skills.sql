@@ -25,7 +25,7 @@ WHERE job_work_from_home = TRUE
 )
 
 
-SELECT top_10_jobs.job_id, skilljob.skill_id, skills_dim.skills AS Skill_Name
+SELECT  top_10_jobs.Company_Name, skills_dim.skills AS Skill_Name, top_10_jobs.yearly_salary
 
 -- Use the previous query as a subquery in order to build from the table of the top 10 paying jobs:
 FROM (
@@ -51,7 +51,7 @@ LEFT JOIN skills_dim ON skills_dim.skill_id = skilljob.skill_id
 
 -- last, filter out the job ids that are null as they provide no information we need.
 WHERE skilljob.job_id IS NOT NULL
-ORDER BY Skill_Name;
+ORDER BY Yearly_Salary DESC;
 
 
 
